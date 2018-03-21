@@ -27,7 +27,7 @@ if __name__ == '__main__':
         # image_name
         image_raw_file = os.path.join(data_root, "train", image_name)
         image_label_file = os.path.join(data_root, "train_masks", 
-            image_name[:-4] + "_mask.jpg")
+            image_name[:-4] + "_mask.png")
 
         # The first method to load image.
         '''
